@@ -1,0 +1,24 @@
+# Terraform state files (NEVER commit these!)
+*.tfstate
+*.tfstate.*
+*.tfvars.backup
+
+# Terraform lock file for dependencies
+.terraform.lock.hcl
+
+# Terraform directory
+.terraform/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Log files and temp directories
+logs/
+*.log
+tmp/
+temp/
